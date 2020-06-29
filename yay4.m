@@ -40,6 +40,25 @@ maexp = table2array(maexp(:,5));
 %Fast Percent
 stoch = timetable2table(stoch);
 stoch = table2array(stoch(:,2));    
+
+nvi = timetable2table(nvi);
+nvi = table2array(nvi);
+
+pvi = timetable2table(pvi);
+pvi = table2array(pvi);
+
+ado = timetable2table(ado);
+ado = table2array(ado);
+
+so = timetable2table(so);
+so = table2array(so(:,2));
+
+acc = timetable2table(acc);
+acc = table2array(acc(:,2));
+
+mom = timetable2table(mom);
+mom = table2array(mom(:,2));
+
 inputs = normalize([rsi,malin,maexp,stoch]);
 
 %% Create training data: Expected
