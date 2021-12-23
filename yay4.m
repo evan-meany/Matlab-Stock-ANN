@@ -42,13 +42,13 @@ stoch = timetable2table(stoch);
 stoch = table2array(stoch(:,2));    
 
 nvi = timetable2table(nvi);
-nvi = table2array(nvi);
+nvi = table2array(nvi(:,2));
 
 pvi = timetable2table(pvi);
-pvi = table2array(pvi);
+pvi = table2array(pvi(:,2));
 
 ado = timetable2table(ado);
-ado = table2array(ado);
+ado = table2array(ado(:,2));
 
 so = timetable2table(so);
 so = table2array(so(:,2));
